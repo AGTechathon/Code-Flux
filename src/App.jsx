@@ -7,6 +7,9 @@ import Header from './components/Header/Header'
 import Dashboard from './pages/Dashbord/Dashboard'
 import PageNotFound from "./pages/PageNotFound/PageNotFound"
 import InstructionsPage from './pages/InstructionsPage/InstructionsPage'
+ import PosesPage from './pages/PosesPage/PosesPage'
+import PoseDetailsPage from "./pages/PoseDetailsPage/PoseDetailsPage";
+import PoseCamPage from "./pages/PoseCamPage/PoseCamPage";
 
 function App() {
   
@@ -17,6 +20,10 @@ function App() {
     <Header/>
         <Routes>
              <Route path='/' element={<Homepage/>}/>
+             <Route path='/poses' element={<PosesPage/>}/>
+             <Route path='/poses/:poseId' element={<PoseDetailsPage/>}/>
+          <Route path="/practice/:poseId" element={<PoseCamPage />} />
+
              <Route path='/dashboard' element={<Dashboard/>}/>
              <Route path='/instructions' element={<InstructionsPage/>}/>
              <Route path='/*' element={<PageNotFound/>}/>
