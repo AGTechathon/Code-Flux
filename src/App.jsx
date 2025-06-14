@@ -4,7 +4,8 @@ import './App.css'
 import Homepage from './pages/Homepage/Homepage'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
-
+import Dashboard from './pages/Dashbord/Dashboard'
+import PageNotFound from "./pages/PageNotFound/PageNotFound"
 
 function App() {
   
@@ -15,6 +16,9 @@ function App() {
     <Header/>
         <Routes>
              <Route path='/' element={<Homepage/>}/>
+             <Route path='/dashboard' element={<Dashboard/>}/>
+
+             <Route path='/*' element={<PageNotFound/>}/>
         </Routes>
        <Footer/> 
     </BrowserRouter>
