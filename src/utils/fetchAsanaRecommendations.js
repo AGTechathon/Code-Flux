@@ -1,6 +1,6 @@
 
 
-const OPENROUTER_API_KEY = "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"; // Replace with your OpenRouter API key
+const OPENROUTER_API_KEY = "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"; // Replace with your OpenRouter API key
 const PEXELS_API_KEY = "KjjCjZ1KFyBPadRVE1lJyxx5DWK6Qe4XEfySdudtHuqHXyfcKWryWHJ7"; // Replace with your Pexels API key
 // src/utils/fetchAsanaRecommendations.js
 async function fetchImageForAsana(asanaName) {

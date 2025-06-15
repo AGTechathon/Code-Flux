@@ -159,7 +159,7 @@ const PoseCam = ({ pose }) => {
     if (!poseLabel || poseLabel === "Detecting Pose...") return;
 
     const fetchFeedback = async () => {
-      const OPENROUTER_API_KEY = "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";//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
+      const OPENROUTER_API_KEY = "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";//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
 
       const prompt = `
 You are an expert yoga coach AI. Based on the pose label "${poseLabel}", provide:
