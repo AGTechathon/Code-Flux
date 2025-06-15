@@ -33,22 +33,7 @@ An intelligent, real-time Yoga Posture Detection and Feedback Web Application po
 
 ---
 
-## 📁 Folder Structure
-YogaAI/
-├── public/
-│ ├── assets/
-│ ├── models/ # Pose estimation models
-├── src/
-│ ├── components/
-│ │ ├── Header, Footer/
-│ │ ├── PoseDetails/
-│ ├── pages/
-│ │ ├── Homepage, Dashboard
-│ ├── hooks/
-│ ├── utils/
-│ └── App.jsx, main.jsx
-├── README.md
-└── package.json
+
 ---
 
 ## 🧩 Installation & Setup
@@ -57,13 +42,18 @@ YogaAI/
    ```bash
    git clone https://github.com/123Afroj123/YogAi.git
    cd YogAi
-
-**Install Dependencies**
+2.**Install Dependencies**
+```bash
    npm install
-**Start the Development Server**
+```
+3.**Start the Development Server**
+```bash
    npm run dev
-**Build for Production**   
+```
+4.**Build for Production**   
+```bash
    npm run Build
+```
 
 **🧪 Usage Guide**
 1.Visit the homepage and select a yoga pose or health condition.
