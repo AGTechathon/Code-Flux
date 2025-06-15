@@ -1,12 +1,42 @@
-# React + Vite
+# 🧘‍♀️ Smart Yoga AI Trainer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent, real-time Yoga Posture Detection and Feedback Web Application powered by **ml5.js**, **p5.js**, and **MoveNet**. This app guides users through yoga poses with instant **visual**, **audio**, and **AI-generated corrections**, supports **multiple asanas**, and provides a **personalized yoga recommendation system** based on health conditions.
 
-Currently, two official plugins are available:
+## 🌟 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View the App](https://your-live-link.com)  
+👉 [Watch Demo Video](https://your-demo-video-link.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+| Real-Time Pose Detection | Yoga Recommendations |
+|--------------------------|-----------------------|
+| ![pose-detection](./public/assets/screenshots/pose.png) | ![recommendations](./public/assets/screenshots/recommend.png) |
+
+---
+
+## 🚀 Features
+
+- ✅ Real-time yoga pose detection using **MoveNet**
+- ✅ Multi-asana support (e.g., Tadasana, Vrikshasana, Trikonasana)
+- ✅ Live accuracy scoring and visual feedback (color-coded progress)
+- ✅ Instant **voice feedback** (toggle on/off)
+- ✅ Step-by-step pose learning dashboard
+- ✅ AI-powered **health-based yoga recommendations**
+- ✅ Pose correction tips using OpenRouter AI
+- ✅ Smooth UI/UX built with **React.js + Tailwind CSS**
+
+---
+
+## 🧠 Tech Stack
+
+| Frontend | AI / ML | Other |
+|----------|---------|-------|
+| React.js | ml5.js, p5.js, TensorFlow.js | Tailwind CSS, Vite, OpenRouter API |
+
+---
+
+## 📁 Folder Structure
+
