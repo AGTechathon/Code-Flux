@@ -4,11 +4,12 @@ An intelligent, real-time Yoga Posture Detection and Feedback Web Application po
 
 
 
+
 ## 📸 Screenshots
 
 | Real-Time Pose Detection | Yoga Recommendations |
 |--------------------------|-----------------------|
-| ![pose-detection](./public/assets/screenshots/pose.jpg) | ![recommendations](./public/assets/screenshots/pose.jpg) | ![recommendations](./public/assets/screenshots/recommendation.jpg) |
+| ![pose-detection](./public/assets/screenshots/LandingPage.jpg) | ![recommendations](./public/assets/screenshots/pose.jpg) | ![recommendations](./public/assets/screenshots/recommendation.jpg) |
 
 ---
 
