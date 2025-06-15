@@ -6,9 +6,9 @@ An intelligent, real-time Yoga Posture Detection and Feedback Web Application po
 
 ## 📸 Screenshots
 
-| Real-Time Pose Detection | Yoga Recommendations |
-|--------------------------|-----------------------|
-| ![pose-detection](./public/assets/screenshots/pose.jpg) | ![recommendations](./public/assets/screenshots/pose.jpg) | ![recommendations](./public/assets/screenshots/recommendation.jpg) |
+| Landing Page / Home page | Example of Pose       | Yoga Recommendations  |
+|--------------------------|-----------------------|-----------------------|
+| ![Landing Page / Home page](./public/assets/screenshots/LandingPage.jpg) | ![Example of Pose](./public/assets/screenshots/pose.jpg) | ![Yoga recommendations](./public/assets/screenshots/recommendation.jpg) |
 
 ---
 
@@ -55,15 +55,20 @@ YogaAI/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/yoga-ai.git
-   cd yoga-ai
-
-**Install Dependencies**
+   git clone https://github.com/123Afroj123/YogAi.git
+   cd YogAi
+2.**Install Dependencies**
+```bash
    npm install
-**Start the Development Server**
+```
+3.**Start the Development Server**
+```bash
    npm run dev
-**Build for Production**   
+```
+4.**Build for Production**   
+```bash
    npm run Build
+```
 
 **🧪 Usage Guide**
 1.Visit the homepage and select a yoga pose or health condition.
@@ -73,22 +78,19 @@ YogaAI/
 5.Use the StepWise Guide to learn poses progressively.
 
 **🤖 Powered By**
-ml5.js
-p5.js
-MoveNet by TensorFlow
-OpenRouter (AI suggestions)
-Pixels API (for pose images)
+-ml5.js
+-p5.js
+-MoveNet by TensorFlow
+-OpenRouter (AI suggestions)
+-Pixels API (for pose images)
 
-**📜 License**
-This project is licensed under the MIT License.
-Feel free to use, modify, and share!
 
 **🙏 Acknowledgments**
 Yoga datasets and pose references
 TensorFlow and OpenAI communities
 Open source contributors and UI/UX inspirations
 
-**Made with ❤️ by CodeFlux**
+**Made by CodeFlux**
 
 ---
 
