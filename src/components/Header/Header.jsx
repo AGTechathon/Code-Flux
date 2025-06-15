@@ -2,7 +2,7 @@ import Logo from "./../../assets/icons/logo.svg";
 import exitIcon from "./../../assets/icons/exit.svg";
 import hamburgerMenuIcon from "./../../assets/icons/hamburger-menu.svg";
 import { NavLink } from "react-router-dom";
-// import { refreshPage } from "./../../utils/helper.js";
+ import { refreshPage } from "./../../utils/helper.js";
 import { useState } from "react";
 
 const Header = () => {
