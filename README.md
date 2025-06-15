@@ -2,18 +2,13 @@
 
 An intelligent, real-time Yoga Posture Detection and Feedback Web Application powered by **ml5.js**, **p5.js**, and **MoveNet**. This app guides users through yoga poses with instant **visual**, **audio**, and **AI-generated corrections**, supports **multiple asanas**, and provides a **personalized yoga recommendation system** based on health conditions.
 
-## 🌟 Live Demo
 
-👉 [View the App](https://your-live-link.com)  
-👉 [Watch Demo Video](https://your-demo-video-link.com)
-
----
 
 ## 📸 Screenshots
 
 | Real-Time Pose Detection | Yoga Recommendations |
 |--------------------------|-----------------------|
-| ![pose-detection](./public/assets/screenshots/pose.png) | ![recommendations](./public/assets/screenshots/recommend.png) |
+| ![pose-detection](./public/assets/screenshots/pose.jpg) | ![recommendations](./public/assets/screenshots/pose.jpg) | ![recommendations](./public/assets/screenshots/recommendation.jpg) |
 
 ---
 
@@ -39,4 +34,61 @@ An intelligent, real-time Yoga Posture Detection and Feedback Web Application po
 ---
 
 ## 📁 Folder Structure
+YogaAI/
+├── public/
+│ ├── assets/
+│ ├── models/ # Pose estimation models
+├── src/
+│ ├── components/
+│ │ ├── Header, Footer/
+│ │ ├── PoseDetails/
+│ ├── pages/
+│ │ ├── Homepage, Dashboard
+│ ├── hooks/
+│ ├── utils/
+│ └── App.jsx, main.jsx
+├── README.md
+└── package.json
+---
+
+## 🧩 Installation & Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/yoga-ai.git
+   cd yoga-ai
+
+**Install Dependencies**
+   npm install
+**Start the Development Server**
+   npm run dev
+**Build for Production**   
+   npm run Build
+
+**🧪 Usage Guide**
+1.Visit the homepage and select a yoga pose or health condition.
+2.Enable your camera when prompted.
+3.Follow the on-screen visual guide and listen to voice feedback.
+4.Review your accuracy score and AI-corrected suggestions.
+5.Use the StepWise Guide to learn poses progressively.
+
+**🤖 Powered By**
+ml5.js
+p5.js
+MoveNet by TensorFlow
+OpenRouter (AI suggestions)
+Pixels API (for pose images)
+
+**📜 License**
+This project is licensed under the MIT License.
+Feel free to use, modify, and share!
+
+**🙏 Acknowledgments**
+Yoga datasets and pose references
+TensorFlow and OpenAI communities
+Open source contributors and UI/UX inspirations
+
+**Made with ❤️ by CodeFlux**
+
+---
 
