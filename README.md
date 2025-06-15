@@ -7,8 +7,8 @@ An intelligent, real-time Yoga Posture Detection and Feedback Web Application po
 
 ## 📸 Screenshots
 
-| Real-Time Pose Detection | Yoga Recommendations |
-|--------------------------|-----------------------|
+| Landing Page / Home Page | Example of Pose       | Yoga Recommendations |
+|--------------------------|-----------------------|-----------------------
 | ![Landing Pge](./public/assets/screenshots/LandingPage.jpg) | ![Example Pose](./public/assets/screenshots/pose.jpg) | ![recommendations section](./public/assets/screenshots/recommendation.jpg) |
 
 ---
