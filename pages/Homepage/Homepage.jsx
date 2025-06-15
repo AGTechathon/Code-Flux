@@ -36,7 +36,7 @@ const HomePage = () => {
 
   return (
     <>
-      <main className="h-full mx-6 mb-20 flex flex-col items-center justify-center md:flex-row md:p-12 md:gap-20 lg:h-[50vh] lg:max-w-[80rem] lg:px-32 lg:py-80 lg:mx-auto">
+      <main className="h-full mx-6 mb-19 flex flex-col items-center justify-center md:flex-row md:p-12 md:gap-20 lg:h-[50vh] lg:max-w-[80rem] lg:px-32 lg:py-80 lg:mx-auto">
         <div className="text-center order-2 md:text-left md:order-1">
           <h5>Powered by AI 🌟</h5>
           <h1 className="text-5xl font-bold mt-2">
